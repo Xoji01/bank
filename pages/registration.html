@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <style>
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    body,
+    html {
+        height: 100%;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        text-align: center;
+    }
+
+    button {
+        background-color: #3498db;
+        color: #ffffff;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        border: 0px solid;
+        height: 40px;
+        width: 300px;
+        border-radius: 10px;
+    }
+    input{
+        height: 40px;
+        width: 300px;
+        border-radius: 10px;    
+    }
+    a{
+        text-decoration: none;
+        color: #1f5376;   
+    }
+    </style>
+    <div class="container">
+    <form id="registration">
+        <h1>Зарегистрироваться</h1>
+        <input type="email" id="email" placeholder="Email" required><br>
+        <input type="text" id="name" placeholder="name" required><br>
+        <input type="text" id="surname" placeholder="surname" required><br>
+        <input type="password" id="password" placeholder="Password" required><br>
+        <button type="button" class="butt">Продолжить</button>
+    </form>
+    <a href="login.html">Войти в аккаунт</a>
+</div>
+    <script src="registration.js"></script>
+</body>
+</html>
